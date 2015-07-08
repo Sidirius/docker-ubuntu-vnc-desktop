@@ -9,12 +9,12 @@ docker pull sidirius/docker-ubuntu-vnc-desktop
 Build yourself
 ```
 git clone https://github.com/Sidirius/docker-ubuntu-vnc-desktop.git
-docker build --rm -t Sidirius/docker-ubuntu-vnc-desktop docker-ubuntu-vnc-desktop
+docker build --rm -t sidirius/docker-ubuntu-vnc-desktop docker-ubuntu-vnc-desktop
 ```
 
 Run
 ```
-docker run -i -t -p 6080:6080 Sidirius/docker-ubuntu-vnc-desktop
+docker run -i -t -p 6080:6080 sidirius/docker-ubuntu-vnc-desktop
 ```
 
 Browse http://127.0.0.1:6080/vnc.html
